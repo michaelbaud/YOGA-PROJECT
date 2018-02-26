@@ -1,0 +1,146 @@
+/*---------------------------------
+GENERAL
+---------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0; 	
+}
+
+.block {
+	
+}
+
+.container {
+	margin-top: 100px;
+}
+
+.block .container .columns{
+	display: flex;
+}
+
+.block .container .columns .column {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.block .container .columns .column .miniBlock {
+	margin: auto;
+}
+
+.block .container .columns .column .miniBlock p {
+	font-size: 1.1;
+	margin-bottom: 20px;
+}
+
+.block .container .columns .column .miniBlock img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+/*---------------------------------
+HEADER
+---------------------------------*/
+
+.header {
+	display: flex;
+	height: 120px;
+	padding-top: 10px;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #fff;
+	position: fixed;
+	z-index: 999;
+}
+
+/* logo et titre*/
+ 	
+.header .logoEtTitre {
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	width: 120px;
+	min-width: 120px;
+	margin-left: 10px;
+}
+
+.header .logoEtTitre .logo {
+	height: 120px;
+	width: 110px;
+	margin: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.header .logoEtTitre .subtitle1 {
+	font-size: 0.6em;
+	text-align: center;
+}
+
+/* nav */
+ 
+ .header .header-nav {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	max-width: 600px;
+ }
+
+ .header .header-nav a {
+ 	margin-right: 40px;
+ 	padding-top: 10px;
+ 	color: #B2C679;
+ 	font-size: 
+ }
+
+/*---------------------------------
+MAIN BANNER
+---------------------------------*/
+
+.mainblock {
+	position: relative;
+}
+
+.banner {
+	margin-top: -25px;
+}
+
+.banner .banner-image {
+	width: 100%;
+}
+
+.banner .banner-content {
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	top: 30%;
+	left: 0;
+}
+
+.banner .banner-content h1 {
+	color: #fff;
+}
+
+/*---------------------------------
+FOOTER
+---------------------------------*/
+
+.footer .footer-contact-form button {
+	margin-top: 20px;
+}
+
+.footer .footer-informations {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer .footer-informations ul {
+	padding: 0;
+}
+
+.footer .footer-informations  ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 5px;
+	font-size: 2em;
+}
